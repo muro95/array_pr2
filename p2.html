@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+
+</head>
+<body>
+
+</body>
+<script>
+        let array = [];
+        for (let i = 0; i< 5; i++){
+            array.push(prompt("Enter input to fill your array: "));
+        }
+        document.write(array);
+        for (let i = 0; i < array.length; i++){
+            if (array[i] === '-'){
+                array[i] = '_';
+            }
+        }
+        document.write(array);
+</script>
+</html>
